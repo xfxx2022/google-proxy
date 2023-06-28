@@ -9,13 +9,7 @@ export default function Home() {
           <title>Colnago</title>
           <meta name="description" content="write-hub"/>
           <link rel="icon" href="/favicon.ico"/>
-          var _hmt = _hmt || [];
-          (function() {
-           var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?2ad232943cf46d2f5f83456574a2cb94";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
-          })();
++        <script dangerouslySetInnerHTML={{ __html: `var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?2ad232943cf46d2f5f83456574a2cb94";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();` }} />
         </Head>
 
         <main className={styles.main}>
