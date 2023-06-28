@@ -9,7 +9,6 @@ export default function Home() {
           <title>Colnago</title>
           <meta name="description" content="write-hub"/>
           <link rel="icon" href="/favicon.ico"/>
-          <script>
           var _hmt = _hmt || [];
           (function() {
            var hm = document.createElement("script");
@@ -17,7 +16,6 @@ export default function Home() {
             var s = document.getElementsByTagName("script")[0]; 
             s.parentNode.insertBefore(hm, s);
           })();
-          </script>
         </Head>
 
         <main className={styles.main}>
